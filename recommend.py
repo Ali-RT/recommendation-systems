@@ -1,6 +1,7 @@
 
 import numpy as np
 
+
 def recommend_movies(user_id, n_movies_to_recommend, model, movies_df, ratings_df):
     # Get user's previous ratings
     user_ratings = ratings_df[ratings_df["userId"] == user_id]
