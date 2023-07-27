@@ -1,0 +1,14 @@
+name: recommendation-system
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - jupyter
+  - notebook
+  - pandas
+  - scikit-learn
+  - scikit-surprise
+  - pytorch
+  - matplotlib
+  - seaborn
